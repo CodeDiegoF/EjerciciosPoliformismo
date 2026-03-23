@@ -1,4 +1,4 @@
-package CastingDame;
+package CastingDemo;
 
 import java.time.LocalDate;
 
