@@ -1,9 +1,8 @@
-package Polimorfismo1;
-
+package Polimorfismo2;
 
 public abstract class FiguraRegular {
-    private int numeroLados;
-    private double longitudLado;
+     private int numeroLados;
+     private double longitudLado;
      
      public FiguraRegular(int numeroLados, double longitudLado) {
           this.numeroLados = numeroLados;
@@ -27,6 +26,8 @@ public abstract class FiguraRegular {
      }
      
      public abstract double calcularPerímetro();
+     
+     public abstract double calcularArea();
      
      @Override
      public String toString() {
