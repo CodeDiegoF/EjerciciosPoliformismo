@@ -22,19 +22,19 @@ public class MainPolimorfismo1 {
      
      private static List<FiguraRegular> getFiguraRegulars() {
           List<FiguraRegular> figuraRegulares = new ArrayList<>();
-          
+
           FiguraRegular cuadrado1 = new Cuadrado(4, 3.3);
           FiguraRegular cuadrado2 = new Cuadrado(4, 2.6);
           FiguraRegular triangulo1 = new TrianguloEquilatero(3, 4);
           FiguraRegular triangulo2 = new TrianguloEquilatero(3, 3.5);
-          
+
           figuraRegulares.add(cuadrado1);
           figuraRegulares.add(cuadrado2);
           figuraRegulares.add(triangulo1);
           figuraRegulares.add(triangulo2);
           return figuraRegulares;
      }
-     
+
      public static void mostrarAreasFiguras(List<FiguraRegular> figuraRegulares) {
           for (FiguraRegular figura : figuraRegulares) {
                if (figura instanceof Cuadrado) {
